@@ -1,1 +1,111 @@
-.ipynb_checkpoints
+# ===============================
+#  General OS & Editor Settings
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===============================
+#  Environment & Secrets
+# ===============================
+.env
+.env.*
+.envrc
+*.key
+*.pem
+*.crt
+*.cert
+*.p12
+*.pfx
+
+# ===============================
+#  Python Build & Virtual Envs
+# ===============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+.venv/
+venv/
+env/
+ENV/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ===============================
+#  Dependency / Lock Files
+# ===============================
+# Commit pyproject.toml, ignore uv.lock if you want clean reproducible base
+# Uncomment next line if you want to avoid frequent dependency churn
+# uv.lock
+
+# ===============================
+#  Jupyter / AI Workspaces
+# ===============================
+.ipynb_checkpoints/
+.jupyter/
+# Avoid committing local experiment notebooks
+# Uncomment if you want to keep all notebooks private
+# *.ipynb
+
+# ===============================
+#  Temporary / Local Data
+# ===============================
+tmp/
+temp/
+*.log
+*.out
+*.bak
+*.tmp
+.cache/
+data/
+datasets/
+__temp__/
+
+# ===============================
+#  OS / Misc Metadata
+# ===============================
+*.DS_Store
+*.icloud
+*.ini~
+*._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Icon?
+
+# ===============================
+#  Custom Project Paths
+# ===============================
+# Ignore environment test notebooks
+week_1/env-test.ipynb
+
+# Ignore local experiment dirs
+experiments/
+notebooks/drafts/
+scratch/
+
+# ===============================
+#  Security / Credentials
+# ===============================
+# Never commit keys, tokens, or configs
+*.json.secret
+*.yaml.secret
+*.toml.secret
+secrets.json
+config.local.yaml
