@@ -9,8 +9,10 @@ dependencies = [
     "jupyter>=1.1.1",
     "minsearch>=0.0.7",
     "openai>=2.2.0",
+    "python-frontmatter>=1.1.0",
     "requests>=2.32.5",
     "sentence-transformers>=5.1.1",
     "toyaikit>=0.0.5",
     "tqdm>=4.67.1",
+    "youtube-transcript-api>=1.2.2",
 ]
